@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:1212", { forceNew: true });
+const socket = io.connect(location.origin, { forceNew: true });
 
 let formulary = document.querySelector("#formularyHighScore");
 let nickForm = document.querySelector("#nickname");
