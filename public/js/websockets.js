@@ -1,4 +1,4 @@
-let socket = io.connect("https://mathple-b7ofaqk4w-riccino22.vercel.app", { forceNew: true });
+let socket = io.connect(location.origin, { forceNew: true });
 console.log(socket);
 
 let formulary = document.querySelector("#formularyHighScore");

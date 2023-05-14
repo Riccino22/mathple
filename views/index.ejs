@@ -33,7 +33,31 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
     <script src="./js/websockets.js"></script>
-    <script src="./js/index.js" type="module"></script>
+    <script type="module">
+        import { Game } from "./js/scenes/game.js";
+        import { Menu } from "./js/scenes/menu.js";
+        import { GameOver } from "./js/scenes/gameOver.js";
+
+        const game = new Phaser.Game({
+            backgroundColor: "#eee",
+            type: Phaser.AUTO,
+            width: 1280,
+            height: 720,
+            parent: document.querySelector("#game"),
+            scene: [Menu, Game, GameOver],
+            physics: {
+                default: 'arcade',
+                arcade: {
+                    gravity: { y: 300 },
+                    debug: false
+                }
+            }
+        });
+
+        let loading = document.querySelector("#loading");
+        if (document.querySelector("canvas")) loading.style.color = "#fff";
+
+    </script>
     <script>
         let link = document.querySelector("#link");
         link.innerHTML = document.location + "top";
