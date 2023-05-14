@@ -1,4 +1,4 @@
-let socket = io.connect(location.origin, { forceNew: true });
+let socket = io.connect(location.origin);
 console.log(socket);
 
 let formulary = document.querySelector("#formularyHighScore");
