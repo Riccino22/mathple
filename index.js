@@ -44,6 +44,7 @@ app.get("/", (req, res) => {
 
 
 app.post("/", (req, res) => {
+    res.status(500).send('Ha ocurrido un error en el servidor');
     res.redirect("/");
 });
 app.get("/top", (req, res) => {
