@@ -1,4 +1,5 @@
 const socket = io.connect(location.origin, { forceNew: true });
+console.log(socket);
 
 let formulary = document.querySelector("#formularyHighScore");
 let nickForm = document.querySelector("#nickname");
