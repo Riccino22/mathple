@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="100mm"
+   viewBox="0 0 200 100"
+   version="1.1"
+   id="svg857"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="platform2.svg"
+   inkscape:export-filename="C:\Users\ARGELIA\Desktop\MATH-PLATTFORM\src\public\assets\platform.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4">
+  <defs
+     id="defs851">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1088"
+       x="-0.065672975"
+       width="1.131346"
+       y="-0.13308039"
+       height="1.2661608">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.4636824"
+         id="feGaussianBlur1090" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="346.86476"
+     inkscape:cy="-22.279825"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata854">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g858"
+       transform="translate(61.232143,-19.654764)"
+       style="fill:#6b6b6b;fill-opacity:0.47999999;filter:url(#filter1088)"
+       inkscape:export-filename="C:\Users\USUARIO\Desktop\RICK\MATHPLE\MATH-PLATTFORM\src\public\assets\bitmap.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <rect
+         style="fill:#6b6b6b;fill-opacity:0.47999999;stroke:#19ff31;stroke-width:1.2;stroke-linejoin:round;stroke-opacity:0"
+         id="rect1420-2"
+         width="199.4299"
+         height="98.533211"
+         x="-62.036732"
+         y="21.036966"
+         ry="8.9843245" />
+      <rect
+         style="fill:#6b6b6b;fill-opacity:0.47999999;stroke:#19ff31;stroke-width:1.2;stroke-linejoin:round;stroke-opacity:0"
+         id="rect1422-9"
+         width="199.6687"
+         height="35.407253"
+         x="-62.036732"
+         y="21.036966"
+         ry="8.9843245" />
+    </g>
+    <g
+       id="g862"
+       transform="translate(0.50489716,19.788397)"
+       inkscape:export-filename="C:\Users\USUARIO\Desktop\RICK\MATHPLE\MATH-PLATTFORM\src\public\assets\bitmap.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <g
+         id="g1014"
+         transform="translate(-1.8898811,-18.898811)">
+        <rect
+           style="fill:#bd732d;fill-opacity:1;stroke:#19ff31;stroke-width:1.2;stroke-linejoin:round;stroke-opacity:0"
+           id="rect1420"
+           width="199.4299"
+           height="98.533211"
+           x="0.58039522"
+           y="0.49261662"
+           ry="8.9843245" />
+        <rect
+           style="fill:#00ea51;fill-opacity:1;stroke:#19ff31;stroke-width:1.2;stroke-linejoin:round;stroke-opacity:0"
+           id="rect1422"
+           width="199.6687"
+           height="35.407253"
+           x="0.58039522"
+           y="0.49261662"
+           ry="8.9843245" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="">
+    <link rel="shortcut icon" href="assets/apple.png" type="image/x-icon">
+    <title>MATHPLE</title>
+</head>
+<body>
+    <div align="center" id="formularyHighScore">
+       <img src="assets/mathpleLogo.png" id="mathple-logo" alt="">
+       <br>
+        <h1>¡Felicidades! </h1>
+        <p>Has obtenido uno de los mejores puntajes en la historia de Mathple. Por favor ingresa tu nombre para agregar tu puntuacion al ranking. Para conocer los otros puntajes que conforman el ranking puedes entrar a <a target="_blank" id="link"></a>. Nota: El nombre que insertes no puede exceder los 5 caracteres.</p><br>
+        <form method="POST" id="form">
+            <input type="text" name="nickname" id="nickname" placeholder="Tu nombre" required autocapitalize><br><br>
+            <p id="err"></p>
+            <input type="submit" value="publicar" class="form-btns">
+        </form>
+        <button class="form-btns" onclick="omitir()">omitir</button>
+    </div>
+    <div id="lastScore" class="<%= lastScore %>"></div>
+    <div id="game">
+        <h1 id="loading">Loading...</h1>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <script src="./js/phaser.js"></script>
+   <script src="./js/websockets.js"></script>
+   <script src="./js/index.js" type="module"></script>
+   <script>
+       let link = document.querySelector("#link");
+       link.innerHTML = document.location + "top";
+   </script> 
+</body>
+</html>

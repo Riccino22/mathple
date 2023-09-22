@@ -12,10 +12,10 @@ const io = new socketio.Server().listen(server);
 let scores = new Array();
 
 app.set("port", process.env.PORT || 1212);
-app.set("views", path.join(__dirname, "src/views"));
+app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
-app.use(express.static(path.join(__dirname, "src/public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 
 app.get("/", (req, res) => {
